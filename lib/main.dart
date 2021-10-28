@@ -15,9 +15,6 @@ class _State extends State<MyApp> {
   bool enableBtn = false;
   String? name, email, password;
   int gender = 0;
-  // TextEditingController nameController = TextEditingController();
-  // TextEditingController passwordController = TextEditingController();
-  // TextEditingController emailController = TextEditingController();
 
   int _value = 1;
   
@@ -64,7 +61,6 @@ class _State extends State<MyApp> {
                       checkText();
                     },
                     obscureText: false,
-                    // controller: nameController,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
                       labelText: 'Name',
@@ -82,7 +78,6 @@ class _State extends State<MyApp> {
                       checkText();
                     },
                     obscureText: false,
-                    // controller: emailController,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
                       labelText: 'Email',
@@ -100,7 +95,6 @@ class _State extends State<MyApp> {
                       checkText();
                     },
                     obscureText: true,
-                    // controller: passwordController,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
                       labelText: 'Password',
